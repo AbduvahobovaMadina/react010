@@ -18,7 +18,7 @@ const Products = ({ data, title }) => {
         <GoHeart onClick={()=> {
           dispatch({type:"ADD_TO_WISHLIST", payload:product})
           toast.success("Mahsulot qo'shildi",{position: "bottom-right"})
-          }} className=" ml-64 hover:cursor-pointer active:text-red-500" />
+          }} className=" text-end hover:cursor-pointer active:text-red-500" />
       
       </div>
     </div>
